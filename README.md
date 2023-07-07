@@ -1,3 +1,3 @@
 # HandsOn
  Simple web site project</br>
-https://handsonweb.netlify.app
+<a target="_blank">https://handsonweb.netlify.app</a>
