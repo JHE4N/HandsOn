@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap');
+@import url('css/header-navigation.css');
+@import url('css/button.css');
+@import url('css/responsive.css');
+@import url('css/footer.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Source Sans Pro 3', sans-serif;
+}
+body{
+    background-image: url("assets/bolha-background.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    width: 90%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.web-designer{
+    font-size: 64px;
+    color: #336;
+    line-height: 64px;
+}
+.landing-page{
+    color: #39c;
+    font-size: 32px;
+    margin-top: 10px;
+   
+}
+.paragrafo-txt{
+    margin-top: 20px;
+    color: #39c;
+    margin-bottom: 25px;
+}

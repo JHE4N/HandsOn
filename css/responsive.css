@@ -1,0 +1,41 @@
+@media(max-width:1700px){
+    body{
+        background-size: 650px;
+    }
+}
+@media(max-width:1300px){
+    body{
+        background-size: 550px;
+    }
+}
+@media(max-width:1070px){
+    body{
+        background-size: auto;
+    }
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .container-img img{
+        max-width: 100%;
+    }
+
+}
+@media(max-width:450px){
+    nav{
+        width: 100%;
+    }
+    ul{
+        text-align: center;
+        background-color: white;
+        width: 100%;
+        flex-direction: column;
+    }
+}
